@@ -1,0 +1,40 @@
+html {
+  background-color: #c9b5ab;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
+nav {
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  color: #8f2440;
+  font-size: 1.125rem;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #222;
+}
+
+main figure + p {
+  font-family: "PT Serif", serif;
+  font-style: bold;
+  font-size: 1.125rem;
+}
