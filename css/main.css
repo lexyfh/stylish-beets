@@ -3,6 +3,9 @@ html {
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+
 h1 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
@@ -69,7 +72,7 @@ blockquote {
 }
 
 blockquote cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 .cvlist {
