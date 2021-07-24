@@ -9,11 +9,18 @@ h1 {
   font-size: 1.5rem;
 }
 
+h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
 nav {
   font-family: "PT Sans", sans-serif;
   text-decoration: none;
   color: #8f2440;
   font-size: 1.125rem;
+  line-height: 1.5;
 }
 
 nav ol {
@@ -25,16 +32,55 @@ a {
   color: #8f2440;
 }
 
+img {
+  width: 100%;
+}
+
 figcaption {
   font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.125rem;
   color: #222;
 }
 
-main figure + p {
+.timedate {
   font-family: "PT Serif", serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.125rem;
+}
+
+footer div p {
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+}
+
+blockquote {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+blockquote cite {
+  font-size: 0.8rem;
+}
+
+.cvlist {
+  list-style-type: lower-greek;
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+dd {
+  line-height: 1.5;
+}
+
+h2 + p {
+  font-style: italic;
 }
