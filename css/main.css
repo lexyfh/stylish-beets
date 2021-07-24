@@ -32,6 +32,11 @@ a {
   color: #8f2440;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #3f1622;
+}
+
 img {
   width: 100%;
 }
@@ -83,4 +88,8 @@ dd {
 
 h2 + p {
   font-style: italic;
+}
+
+ul {
+  list-style-type: circle;
 }
